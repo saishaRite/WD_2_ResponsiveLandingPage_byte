@@ -1,40 +1,78 @@
-# NexaFlow — Responsive Parallax Landing Page
 
-A responsive SaaS-style landing page built with semantic HTML, CSS, and vanilla JavaScript.
+# NexaFlow — Responsive Landing Page
 
-## Assignment requirements covered
+A modern, responsive landing page designed for NexaFlow, a conceptual platform that helps teams organize projects, automate workflows, and collaborate efficiently.
 
-- Responsive layout for desktop, tablet, and mobile.
-- Hero section, product/service feature cards, and clear calls to action.
-- Matrix-inspired parallax background with multiple layers moving at different speeds.
-- Interactive hover states and dashboard tilt.
-- Semantic HTML structure and metadata (`title`, `description`, theme color, Open Graph metadata).
-- Reduced-motion support for visitors who prefer less animation.
+## Live Demo
 
-## Files
+[Visit NexaFlow](https://nexaflow-saisharite.vercel.app)
 
-- `index.html` — page structure and metadata.
-- `style.css` — visual design, responsive breakpoints, and parallax background styling.
-- `script.js` — requestAnimationFrame-based parallax movement and dynamic copyright year.
+## Features
 
-## Run locally
+- Modern matrix-inspired visual design.
+- Matrix parallax scrolling effect.
+- Responsive layout for desktop, tablet, and mobile devices.
+- Hero section with clear call-to-action.
+- Features section highlighting the platform.
+- Interactive hover effects and animations.
+- Smooth navigation between sections.
+- Semantic HTML structure and SEO meta description.
+- Reduced-motion accessibility support.
 
-1. Download or clone this repository.
-2. Keep `index.html`, `style.css`, and `script.js` in the same directory.
-3. Open `index.html` in a browser, or use the VS Code Live Server extension.
+## Technologies Used
 
-No build tools, frameworks, or external libraries are required.
+- HTML5
+- CSS3
+- JavaScript
+- Git and GitHub
+- Vercel
 
-## Parallax implementation
+## Screenshots
 
-Elements with a `data-speed` attribute move vertically according to the page's scroll position. Each element has a different speed, including negative speeds, so the background and foreground do not move together. The JavaScript uses `requestAnimationFrame` to keep scroll updates efficient and the CSS `translate` property so the effect does not overwrite other transforms.
+### 1. Desktop View
 
-## Before submission
+![NexaFlow Desktop Screenshot](nexaflow-desktop.png)
 
-- Push the project to a public GitHub repository.
-- Add your live deployment URL (for example, GitHub Pages or Vercel) below.
-- Capture desktop, tablet, and mobile screenshots and add them to the repository.
+### 2. Features Section
 
-## Live demo
+![NexaFlow Features Screenshot](nexaflow-features.png)
 
-Add your deployed URL here: `https://your-live-demo-url`
+### 3. Mobile View
+
+![NexaFlow Mobile Screenshot](nexaflow-mobile.jpeg)
+
+## Project Structure
+
+```text
+WD_2_ResponsiveLandingPage_byte/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── nexaflow-desktop.png
+├── nexaflow-features.png
+└── nexaflow-mobile.jpeg
+```
+
+## Run Locally
+
+1. Clone this repository.
+2. Open the project folder in VS Code.
+3. Open `index.html` using Live Server.
+4. Explore the landing page in your browser.
+
+No build process is required.
+
+## Deployment
+
+The website is deployed using Vercel.
+
+[Open Live Website](https://nexaflow-saisharite.vercel.app)
+
+## Author
+
+**Saisha Rite**
+
+- GitHub: [SaishaRite](https://github.com/SaishaRite)
+- Portfolio: [Personal Portfolio](https://saisha-portfolio.vercel.app)
